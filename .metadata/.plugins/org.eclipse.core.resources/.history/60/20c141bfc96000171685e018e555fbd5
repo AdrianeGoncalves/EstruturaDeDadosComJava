@@ -9,12 +9,12 @@ public class Vetor {
 		this.elementos = new String[capacidade];
 	}
 	
-	public void adiciona(String elemento) throws Exception{
+	public void adiciona(String elemento){
 		if(tamanho<this.elementos.length){
 			this.elementos[tamanho] = elemento;
 			tamanho++;
 		}else{
-			throw new Exception("Todas as posições do vetor já se encontram preenchidas");
+			throw new ArrayIndexOutOfBoundsException("Todas as posições do vetor já se encontram preenchidas");
 		}
 	}
 

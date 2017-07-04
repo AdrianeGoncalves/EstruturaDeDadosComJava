@@ -9,7 +9,7 @@ public class Vetor {
 		this.elementos = new String[capacidade];
 	}
 	
-	public void adiciona(String elemento) throws Exception{
+	public void adiciona(String elemento) throws{
 		if(tamanho<this.elementos.length){
 			this.elementos[tamanho] = elemento;
 			tamanho++;
