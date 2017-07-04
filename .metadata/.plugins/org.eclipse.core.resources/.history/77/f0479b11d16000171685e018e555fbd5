@@ -18,13 +18,6 @@ public class Vetor {
 		}
 	}
 	
-	public String buscar(int posicao){
-		if(!(posicao>=0 && posicao<tamanho)){
-			throw new IllegalArgumentException("Posição Inválida!");
-		}
-		return elementos[posicao];
-	}
-	
 	public int tamanho(){
 		return this.tamanho;
 	}
@@ -35,7 +28,7 @@ public class Vetor {
 		StringBuilder s = new StringBuilder();
 		s.append("[");
 		
-		for(int i = 0; i<this.tamanho-1;i++){
+		for(int i = 0; i<=this.tamanho-1;i++){
 			s.append(elementos[i]);
 			s.append(",");
 		}
