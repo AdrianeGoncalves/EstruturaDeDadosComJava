@@ -33,9 +33,9 @@ public class Vetor {
 			s.append(",");
 		}
 		
-		if(this.tamanho>0){
+		/*if(this.tamanho>0){
 			s.append(elementos[this.tamanho-1]);
-		}
+		}*/
 		s.append("]");
 		
 		return s.toString();

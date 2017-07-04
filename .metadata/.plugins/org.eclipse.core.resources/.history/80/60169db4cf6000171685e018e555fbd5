@@ -10,7 +10,6 @@ public class PrincipalTeste {
 		try {
 			v.adiciona("Adriane");
 			v.adiciona("Thalia");
-			System.out.println(v);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
