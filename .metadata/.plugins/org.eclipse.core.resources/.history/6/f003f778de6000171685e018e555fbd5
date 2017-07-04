@@ -5,7 +5,7 @@ import com.adriane.goncalves.estruturadados.vetor.Vetor;
 public class PrincipalTeste {
 	public static void main(String[]args){
 		
-		Vetor v = new Vetor(3);
+		Vetor v = new Vetor(2);
 		
 		try {
 			v.adiciona("elemento 1"); // elemento 1 adicionado na posicao 0
@@ -14,8 +14,7 @@ public class PrincipalTeste {
 			System.out.println(v.Contem("elemento 1")); //Verifica se contém o elemento no vetor
 			System.out.println(v.Contem("elemento 4")); //Verifica se contém o elemento no vetor
 			System.out.println(v);
-			v.adiciona(1, "elemento 0");
-			System.out.println(v);
+			v.adiciona(0, "elemento 0");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

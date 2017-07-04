@@ -14,7 +14,7 @@ public class PrincipalTeste {
 			System.out.println(v.Contem("elemento 1")); //Verifica se contém o elemento no vetor
 			System.out.println(v.Contem("elemento 4")); //Verifica se contém o elemento no vetor
 			System.out.println(v);
-			v.adiciona(1, "elemento 0");
+			v.adiciona(0, "elemento 0");
 			System.out.println(v);
 		} catch (Exception e) {
 			e.printStackTrace();
