@@ -1,0 +1,20 @@
+package com.adriane.goncalves.estruturadados.vetor.teste;
+
+import com.adriane.goncalves.estruturadados.vetor.Vetor;
+
+public class PrincipalTeste {
+	public static void main(String[]args){
+		
+		Vetor v = new Vetor(2);
+		
+		try {
+			v.adiciona("elemento 1");
+			v.adiciona("elemento 2");
+			System.out.println(v.buscar(1));
+			System.out.println(v.Contem("elemento 1"));
+			System.out.println(v.Contem("elemento 4"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
